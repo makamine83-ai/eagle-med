@@ -1,0 +1,19 @@
+[{"stream_name":"stdout","time":1.918744517,"data":"eaglesim|__init__.py e3b0c44298fc1c14\n"}
+,{"stream_name":"stdout","time":1.918911829,"data":"eaglesim|arms.py 7eb84aae2e86000f\n"}
+,{"stream_name":"stdout","time":1.91928539,"data":"eaglesim|arms_post.py d66ef532ce0d991b\n"}
+,{"stream_name":"stdout","time":1.919605057,"data":"eaglesim|core.py 499c4f947ba2029c\n"}
+,{"stream_name":"stdout","time":1.919922146,"data":"eaglesim|params.py e4211e1868d36383\n"}
+,{"stream_name":"stdout","time":1.920598512,"data":"eaglesim|protocols.py 8095654dd1960ffc\n"}
+,{"stream_name":"stdout","time":1.9211032540000001,"data":"eaglesim|scenarios.py 3d9389f29e6c5622\n"}
+,{"stream_name":"stdout","time":1.92131268,"data":"run_post.py 2e960afdfaaa7db2\n"}
+,{"stream_name":"stdout","time":1.922736133,"data":"data|link_table.json 701354e2b1c03483\n"}
+,{"stream_name":"stdout","time":178.302131575,"data":"100 150\n"}
+,{"stream_name":"stdout","time":259.742120667,"data":"jobs 150 errors 0 table 701354e2b1c03483\n"}
+,{"stream_name":"stdout","time":259.802178309,"data":"rc 0\n"}
+,{"stream_name":"stderr","time":263.265502926,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":263.265542851,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":263.882096204,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":263.882137695,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":266.999652883,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":269.128782806,"data":"[NbConvertApp] Writing 525638 bytes to __results__.html\n"}
+]

@@ -1,0 +1,27 @@
+terms S3 EAGLE 11 4
+terms S3 EAGLE 12 4
+terms S3 Raft 11 2
+terms S3 Raft 12 2
+terms S3 TrustRaft 11 5
+terms S3 TrustRaft 12 2
+terms S5 EAGLE 11 13
+terms S5 EAGLE 12 12
+terms S5 Raft 11 25
+terms S5 Raft 12 26
+terms S5 TrustRaft 11 14
+terms S5 TrustRaft 12 24
+terms S6 EAGLE 11 3
+terms S6 EAGLE 12 4
+terms S6 Raft 11 2
+terms S6 Raft 12 2
+terms S6 TrustRaft 11 3
+terms S6 TrustRaft 12 3
+alert independence 11 (148, 148)
+alert independence 12 (108, 130)
+dwell S1 11 (1, 12.86, [])
+dwell S1 12 (1, 11.89, [])
+dwell S2 11 (1, 12.86, [])
+dwell S2 12 (1, 11.89, [])
+dwell S5 11 (1, 12.86, [])
+dwell S5 12 (1, 11.89, [])
+ALL INVARIANTS HELD

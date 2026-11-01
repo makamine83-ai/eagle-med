@@ -1,0 +1,45 @@
+[{"stream_name":"stdout","time":1.209939519,"data":"['analyze.py', 'data', 'eaglesim', 'run_campaign.py'] 4\n"}
+,{"stream_name":"stdout","time":2.137482067,"data":"jobs 6450\n"}
+,{"stream_name":"stdout","time":48.954374157,"data":"0 6450 47\n"}
+,{"stream_name":"stdout","time":556.920454607,"data":"200 6450 555\n"}
+,{"stream_name":"stdout","time":861.639917154,"data":"400 6450 860\n"}
+,{"stream_name":"stdout","time":942.396807534,"data":"600 6450 940\n"}
+,{"stream_name":"stdout","time":1465.154715517,"data":"800 6450 1463\n"}
+,{"stream_name":"stdout","time":1788.440887467,"data":"1000 6450 1786\n"}
+,{"stream_name":"stdout","time":1875.390196961,"data":"1200 6450 1873\n"}
+,{"stream_name":"stdout","time":2457.311653391,"data":"1400 6450 2455\n"}
+,{"stream_name":"stdout","time":2777.519717249,"data":"1600 6450 2775\n"}
+,{"stream_name":"stdout","time":2860.009458102,"data":"1800 6450 2858\n"}
+,{"stream_name":"stdout","time":3392.494772213,"data":"2000 6450 3390\n"}
+,{"stream_name":"stdout","time":3700.14192506,"data":"2200 6450 3698\n"}
+,{"stream_name":"stdout","time":3795.859831319,"data":"2400 6450 3794\n"}
+,{"stream_name":"stdout","time":4499.631576272,"data":"2600 6450 4497\n"}
+,{"stream_name":"stdout","time":4979.713383369,"data":"2800 6450 4978\n"}
+,{"stream_name":"stdout","time":5102.027611677,"data":"3000 6450 5100\n"}
+,{"stream_name":"stdout","time":5748.150172318,"data":"3200 6450 5746\n"}
+,{"stream_name":"stdout","time":6150.849940732,"data":"3400 6450 6149\n"}
+,{"stream_name":"stdout","time":6254.521415678,"data":"3600 6450 6252\n"}
+,{"stream_name":"stdout","time":6881.553079471,"data":"3800 6450 6879\n"}
+,{"stream_name":"stdout","time":7296.55289151,"data":"4000 6450 7294\n"}
+,{"stream_name":"stdout","time":7414.221338762,"data":"4200 6450 7412\n"}
+,{"stream_name":"stdout","time":7936.987124242,"data":"4400 6450 7935\n"}
+,{"stream_name":"stdout","time":8264.801199448,"data":"4600 6450 8263\n"}
+,{"stream_name":"stdout","time":8303.93568519,"data":"4800 6450 8302\n"}
+,{"stream_name":"stdout","time":8382.452695518,"data":"5000 6450 8380\n"}
+,{"stream_name":"stdout","time":8533.58564531,"data":"5200 6450 8531\n"}
+,{"stream_name":"stdout","time":9255.892749881,"data":"5400 6450 9254\n"}
+,{"stream_name":"stdout","time":9862.848006352,"data":"5600 6450 9861\n"}
+,{"stream_name":"stdout","time":10457.508943727,"data":"5800 6450 10455\n"}
+,{"stream_name":"stdout","time":11152.805786948,"data":"6000 6450 11151\n"}
+,{"stream_name":"stdout","time":11944.893642102,"data":"6200 6450 11943\n"}
+,{"stream_name":"stdout","time":12725.411978269,"data":"6400 6450 12723\n"}
+,{"stream_name":"stdout","time":12896.552790348,"data":"{'jobs': 6450, 'seconds': 12894.363788843155, 'python': '3.13.15', 'numpy': '2.1.3', 'host': 'Linux-6.18.55+-x86_64-with-glibc2.39', 'cpus': 4, 'table_sha256': '701354e2b1c034838a88e4b98e0a837b7bd9c4d06bd0854356788a2618b35965'}\n"}
+,{"stream_name":"stdout","time":12896.683218699,"data":"rc 0\n"}
+,{"stream_name":"stdout","time":12908.662772308,"data":"wrote /kaggle/working/results\n"}
+,{"stream_name":"stderr","time":12912.477352603,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":12912.477409711,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":12913.150388757,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":12913.15043816,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":12916.616766288,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":12918.266235282,"data":"[NbConvertApp] Writing 526907 bytes to __results__.html\n"}
+]

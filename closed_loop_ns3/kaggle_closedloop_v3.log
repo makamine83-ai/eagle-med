@@ -1,0 +1,149 @@
+[{"stream_name":"stdout","time":22.228134183,"data":"$ apt-get update -qq \u0026\u0026 apt-get install -y -qq ns3 libns3-dev libgsl-dev libsqlite3-dev libxml2-dev \u003e /dev/null 2\u003e\u00261 rc 0\n"}
+,{"stream_name":"stdout","time":33.542208821,"data":"$ cd /kaggle/working \u0026\u0026 g++ -std=c++20 -O2 -w closedloop.cc -o cl_bin $(pkg-config --cflags --libs ns3-wifi ns3-internet ns3-csma ns3-applicat rc 0\n"}
+,{"stream_name":"stdout","time":163.708296123,"data":"$ cd /kaggle/working \u0026\u0026 ./cl_bin --mode=1 --seed=999 --time=26 --crash=14 --out=cl/test.csv rc 0\n"}
+,{"stream_name":"stdout","time":163.708346781,"data":"test s 130.16598224639893\n"}
+,{"stream_name":"stdout","time":163.708352518,"data":"mode,seed,failover_s,alert_id,birth,latency,crash_s,members\n"}
+,{"stream_name":"stdout","time":163.708356748,"data":"1,999,0.384164,1,6,0.000636294,14,20\n"}
+,{"stream_name":"stdout","time":163.708360715,"data":"1,999,0.384164,2,6.84773,0.000554855,14,20\n"}
+,{"stream_name":"stdout","time":163.708364707,"data":"1,999,0.384164,3,7.36233,0.000279145,14,20\n"}
+,{"stream_name":"stdout","time":163.708368396,"data":"1,999,0.384164,4,7.70017,7.0802e-05,14,20\n"}
+,{"stream_name":"stdout","time":163.708371968,"data":"1,999,0.384164,5,7.89556,0.000214541,14,20\n"}
+,{"stream_name":"stdout","time":163.70837559,"data":"1,999,0.384164,6,8.03788,7.5276e-05,14,20\n"}
+,{"stream_name":"stdout","time":163.708379317,"data":"1,999,0.384164,7,9.44298,0.000707447,14,20\n"}
+,{"stream_name":"stdout","time":163.708382873,"data":"1,999,0.384164,8,9.73909,0.000107147,14,20\n"}
+,{"stream_name":"stdout","time":163.708386431,"data":"1,999,0.384164,9,10.5431,0.000276503,14,20\n"}
+,{"stream_name":"stdout","time":163.708390068,"data":"1,999,0.384164,10,11.4718,0.00023277,14,20\n"}
+,{"stream_name":"stdout","time":163.708393758,"data":"1,999,0.384164,11,11.5734,0.000151327,14,20\n"}
+,{"stream_name":"stdout","time":163.708397428,"data":"1,999,0.384164,12,11.8311,0.000146057,14,20\n"}
+,{"stream_name":"stdout","time":163.708401081,"data":"1,999,0.384164,13,12.3395,7.818e-05,14,20\n"}
+,{"stream_name":"stdout","time":163.708404755,"data":"1,999,0.384164,14,12.4336,7.2506e-05,14,20\n"}
+,{"stream_name":"stdout","time":163.708408514,"data":"1,999,0.384164,15,12.7584,0.00023844,14,20\n"}
+,{"stream_name":"stdout","time":163.708412208,"data":"1,\n"}
+,{"stream_name":"stdout","time":556.960923152,"data":"(20, 0, 1, 0, 393.2, '')\n"}
+,{"stream_name":"stdout","time":563.016424135,"data":"(20, 0, 2, 0, 399.3, '')\n"}
+,{"stream_name":"stdout","time":571.557700981,"data":"(20, 0, 3, 0, 407.8, '')\n"}
+,{"stream_name":"stdout","time":571.557753536,"data":"(20, 0, 4, 0, 392.2, '')\n"}
+,{"stream_name":"stdout","time":954.639234922,"data":"(20, 0, 5, 0, 398.7, '')\n"}
+,{"stream_name":"stdout","time":971.76559956,"data":"(20, 0, 6, 0, 414.8, '')\n"}
+,{"stream_name":"stdout","time":971.766050604,"data":"(20, 0, 7, 0, 406.6, '')\n"}
+,{"stream_name":"stdout","time":971.766377023,"data":"(20, 0, 8, 0, 387.4, '')\n"}
+,{"stream_name":"stdout","time":1370.090460993,"data":"(20, 0, 9, 0, 415.5, '')\n"}
+,{"stream_name":"stdout","time":1370.090842902,"data":"(20, 0, 10, 0, 393.0, '')\n"}
+,{"stream_name":"stdout","time":1370.091250658,"data":"(20, 0, 11, 0, 387.7, '')\n"}
+,{"stream_name":"stdout","time":1377.076926077,"data":"(20, 0, 12, 0, 405.3, '')\n"}
+,{"stream_name":"stdout","time":1746.494799057,"data":"(20, 0, 13, 0, 394.6, '')\n"}
+,{"stream_name":"stdout","time":1746.495246387,"data":"(20, 0, 14, 0, 389.2, '')\n"}
+,{"stream_name":"stdout","time":1764.314028829,"data":"(20, 0, 15, 0, 394.2, '')\n"}
+,{"stream_name":"stdout","time":1783.806728789,"data":"(20, 0, 16, 0, 406.7, '')\n"}
+,{"stream_name":"stdout","time":2141.348937787,"data":"(20, 0, 17, 0, 394.9, '')\n"}
+,{"stream_name":"stdout","time":2149.578672708,"data":"(20, 0, 18, 0, 403.1, '')\n"}
+,{"stream_name":"stdout","time":2187.636081514,"data":"(20, 0, 19, 0, 423.3, '')\n"}
+,{"stream_name":"stdout","time":2194.809672336,"data":"(20, 0, 20, 0, 411.0, '')\n"}
+,{"stream_name":"stdout","time":2546.509733296,"data":"(20, 1, 1, 0, 405.2, '')\n"}
+,{"stream_name":"stdout","time":2559.014735027,"data":"(20, 1, 2, 0, 409.4, '')\n"}
+,{"stream_name":"stdout","time":2601.81403001,"data":"(20, 1, 3, 0, 414.2, '')\n"}
+,{"stream_name":"stdout","time":2601.814671709,"data":"(20, 1, 4, 0, 404.0, '')\n"}
+,{"stream_name":"stdout","time":2954.724760672,"data":"(20, 1, 5, 0, 408.2, '')\n"}
+,{"stream_name":"stdout","time":2983.182467618,"data":"(20, 1, 6, 0, 424.2, '')\n"}
+,{"stream_name":"stdout","time":3010.429513542,"data":"(20, 1, 7, 0, 411.6, '')\n"}
+,{"stream_name":"stdout","time":3010.429593373,"data":"(20, 1, 8, 0, 392.4, '')\n"}
+,{"stream_name":"stdout","time":3377.922924637,"data":"(20, 1, 9, 0, 423.2, '')\n"}
+,{"stream_name":"stdout","time":3383.169588223,"data":"(20, 1, 10, 0, 400.0, '')\n"}
+,{"stream_name":"stdout","time":3389.822656662,"data":"(20, 1, 11, 0, 395.6, '')\n"}
+,{"stream_name":"stdout","time":3424.355451276,"data":"(20, 1, 12, 0, 413.9, '')\n"}
+,{"stream_name":"stdout","time":3780.956401879,"data":"(20, 1, 13, 0, 403.0, '')\n"}
+,{"stream_name":"stdout","time":3780.956484582,"data":"(20, 1, 14, 0, 397.4, '')\n"}
+,{"stream_name":"stdout","time":3789.145138868,"data":"(20, 1, 15, 0, 399.3, '')\n"}
+,{"stream_name":"stdout","time":3835.066008048,"data":"(20, 1, 16, 0, 410.7, '')\n"}
+,{"stream_name":"stdout","time":4184.263088995,"data":"(20, 1, 17, 0, 403.7, '')\n"}
+,{"stream_name":"stdout","time":4186.434368755,"data":"(20, 1, 18, 0, 405.5, '')\n"}
+,{"stream_name":"stdout","time":4216.236654149,"data":"(20, 1, 19, 0, 427.1, '')\n"}
+,{"stream_name":"stdout","time":4247.055557239,"data":"(20, 1, 20, 0, 412.0, '')\n"}
+,{"stream_name":"stdout","time":4731.707433454,"data":"(50, 0, 1, 0, 547.4, '')\n"}
+,{"stream_name":"stdout","time":4742.156355837,"data":"(50, 0, 2, 0, 555.7, '')\n"}
+,{"stream_name":"stdout","time":4765.744649753,"data":"(50, 0, 3, 0, 549.5, '')\n"}
+,{"stream_name":"stdout","time":4795.13224341,"data":"(50, 0, 4, 0, 548.1, '')\n"}
+,{"stream_name":"stdout","time":5270.383270294,"data":"(50, 0, 5, 0, 538.7, '')\n"}
+,{"stream_name":"stdout","time":5289.453639355,"data":"(50, 0, 6, 0, 547.3, '')\n"}
+,{"stream_name":"stdout","time":5301.038732414,"data":"(50, 0, 7, 0, 535.3, '')\n"}
+,{"stream_name":"stdout","time":5332.130317542,"data":"(50, 0, 8, 0, 537.0, '')\n"}
+,{"stream_name":"stdout","time":5833.059434186,"data":"(50, 0, 9, 0, 562.7, '')\n"}
+,{"stream_name":"stdout","time":5835.0872173,"data":"(50, 0, 10, 0, 545.6, '')\n"}
+,{"stream_name":"stdout","time":5850.653742737,"data":"(50, 0, 11, 0, 549.6, '')\n"}
+,{"stream_name":"stdout","time":5897.094331846,"data":"(50, 0, 12, 0, 565.0, '')\n"}
+,{"stream_name":"stdout","time":6402.750255762,"data":"(50, 0, 13, 0, 569.7, '')\n"}
+,{"stream_name":"stdout","time":6415.246778421,"data":"(50, 0, 14, 0, 580.2, '')\n"}
+,{"stream_name":"stdout","time":6415.247165575,"data":"(50, 0, 15, 0, 563.0, '')\n"}
+,{"stream_name":"stdout","time":6442.475467843,"data":"(50, 0, 16, 0, 545.4, '')\n"}
+,{"stream_name":"stdout","time":6935.789583453,"data":"(50, 0, 17, 0, 533.0, '')\n"}
+,{"stream_name":"stdout","time":6948.655622963,"data":"(50, 0, 18, 0, 535.0, '')\n"}
+,{"stream_name":"stdout","time":6948.655990671,"data":"(50, 0, 19, 0, 530.2, '')\n"}
+,{"stream_name":"stdout","time":6967.033704114,"data":"(50, 0, 20, 0, 524.6, '')\n"}
+,{"stream_name":"stdout","time":7486.983194731,"data":"(50, 1, 1, 0, 551.2, '')\n"}
+,{"stream_name":"stdout","time":7497.76158494,"data":"(50, 1, 2, 0, 552.3, '')\n"}
+,{"stream_name":"stdout","time":7497.762055972,"data":"(50, 1, 3, 0, 544.8, '')\n"}
+,{"stream_name":"stdout","time":7515.736889593,"data":"(50, 1, 4, 0, 548.7, '')\n"}
+,{"stream_name":"stdout","time":8031.116506848,"data":"(50, 1, 5, 0, 544.1, '')\n"}
+,{"stream_name":"stdout","time":8052.772046577,"data":"(50, 1, 6, 0, 559.3, '')\n"}
+,{"stream_name":"stdout","time":8052.772127724,"data":"(50, 1, 7, 0, 545.3, '')\n"}
+,{"stream_name":"stdout","time":8061.228070735,"data":"(50, 1, 8, 0, 545.5, '')\n"}
+,{"stream_name":"stdout","time":8589.410631178,"data":"(50, 1, 9, 0, 558.3, '')\n"}
+,{"stream_name":"stdout","time":8594.21290379,"data":"(50, 1, 10, 0, 551.2, '')\n"}
+,{"stream_name":"stdout","time":8601.674093957,"data":"(50, 1, 11, 0, 548.9, '')\n"}
+,{"stream_name":"stdout","time":8623.182446984,"data":"(50, 1, 12, 0, 562.0, '')\n"}
+,{"stream_name":"stdout","time":9156.002242251,"data":"(50, 1, 13, 0, 566.6, '')\n"}
+,{"stream_name":"stdout","time":9175.788272476,"data":"(50, 1, 14, 0, 581.6, '')\n"}
+,{"stream_name":"stdout","time":9175.788326586,"data":"(50, 1, 15, 0, 556.5, '')\n"}
+,{"stream_name":"stdout","time":9175.788333781,"data":"(50, 1, 16, 0, 539.3, '')\n"}
+,{"stream_name":"stdout","time":9688.482825684,"data":"(50, 1, 17, 0, 532.5, '')\n"}
+,{"stream_name":"stdout","time":9698.458770105,"data":"(50, 1, 18, 0, 540.3, '')\n"}
+,{"stream_name":"stdout","time":9698.459116466,"data":"(50, 1, 19, 0, 532.5, '')\n"}
+,{"stream_name":"stdout","time":9701.238361281,"data":"(50, 1, 20, 0, 525.5, '')\n"}
+,{"stream_name":"stdout","time":10104.646070043,"data":"(90, 0, 1, 0, 416.2, '')\n"}
+,{"stream_name":"stdout","time":10113.86696158,"data":"(90, 0, 2, 0, 419.0, '')\n"}
+,{"stream_name":"stdout","time":10113.867366022,"data":"(90, 0, 3, 0, 396.8, '')\n"}
+,{"stream_name":"stdout","time":10113.867696558,"data":"(90, 0, 4, 0, 383.6, '')\n"}
+,{"stream_name":"stdout","time":10484.559392189,"data":"(90, 0, 5, 0, 399.7, '')\n"}
+,{"stream_name":"stdout","time":10492.836464822,"data":"(90, 0, 6, 0, 397.6, '')\n"}
+,{"stream_name":"stdout","time":10492.836727445,"data":"(90, 0, 7, 0, 383.7, '')\n"}
+,{"stream_name":"stdout","time":10544.605993142,"data":"(90, 0, 8, 0, 430.7, '')\n"}
+,{"stream_name":"stdout","time":10875.11248242,"data":"(90, 0, 9, 0, 390.6, '')\n"}
+,{"stream_name":"stdout","time":10896.248277169,"data":"(90, 0, 10, 0, 407.9, '')\n"}
+,{"stream_name":"stdout","time":10897.704635607,"data":"(90, 0, 11, 0, 404.9, '')\n"}
+,{"stream_name":"stdout","time":10969.398743397,"data":"(90, 0, 12, 0, 424.8, '')\n"}
+,{"stream_name":"stdout","time":11315.104655731,"data":"(90, 0, 13, 0, 440.0, '')\n"}
+,{"stream_name":"stdout","time":11355.395629016,"data":"(90, 0, 14, 0, 459.2, '')\n"}
+,{"stream_name":"stdout","time":11355.395675553,"data":"(90, 0, 15, 0, 430.3, '')\n"}
+,{"stream_name":"stdout","time":11365.243467136,"data":"(90, 0, 16, 0, 395.8, '')\n"}
+,{"stream_name":"stdout","time":11705.307462789,"data":"(90, 0, 17, 0, 390.2, '')\n"}
+,{"stream_name":"stdout","time":11733.79954041,"data":"(90, 0, 18, 0, 405.8, '')\n"}
+,{"stream_name":"stdout","time":11733.799980308,"data":"(90, 0, 19, 0, 372.5, '')\n"}
+,{"stream_name":"stdout","time":11747.026668704,"data":"(90, 0, 20, 0, 381.8, '')\n"}
+,{"stream_name":"stdout","time":12119.364232167,"data":"(90, 1, 1, 0, 414.1, '')\n"}
+,{"stream_name":"stdout","time":12138.566566984,"data":"(90, 1, 2, 0, 410.6, '')\n"}
+,{"stream_name":"stdout","time":12138.566959624,"data":"(90, 1, 3, 0, 399.4, '')\n"}
+,{"stream_name":"stdout","time":12138.567267001,"data":"(90, 1, 4, 0, 382.6, '')\n"}
+,{"stream_name":"stdout","time":12506.173363805,"data":"(90, 1, 5, 0, 386.8, '')\n"}
+,{"stream_name":"stdout","time":12521.824618025,"data":"(90, 1, 6, 0, 392.2, '')\n"}
+,{"stream_name":"stdout","time":12521.824822966,"data":"(90, 1, 7, 0, 383.2, '')\n"}
+,{"stream_name":"stdout","time":12553.689725587,"data":"(90, 1, 8, 0, 415.1, '')\n"}
+,{"stream_name":"stdout","time":12896.37627662,"data":"(90, 1, 9, 0, 390.2, '')\n"}
+,{"stream_name":"stdout","time":12915.433144549,"data":"(90, 1, 10, 0, 399.1, '')\n"}
+,{"stream_name":"stdout","time":12922.547836421,"data":"(90, 1, 11, 0, 400.7, '')\n"}
+,{"stream_name":"stdout","time":12954.914664459,"data":"(90, 1, 12, 0, 401.2, '')\n"}
+,{"stream_name":"stdout","time":13316.250017216,"data":"(90, 1, 13, 0, 419.9, '')\n"}
+,{"stream_name":"stdout","time":13356.636102487,"data":"(90, 1, 14, 0, 441.2, '')\n"}
+,{"stream_name":"stdout","time":13356.636466297,"data":"(90, 1, 15, 0, 422.8, '')\n"}
+,{"stream_name":"stdout","time":13356.636830521,"data":"(90, 1, 16, 0, 388.4, '')\n"}
+,{"stream_name":"stdout","time":13685.106762345,"data":"(90, 1, 17, 0, 368.9, '')\n"}
+,{"stream_name":"stdout","time":13716.545563987,"data":"(90, 1, 18, 0, 373.2, '')\n"}
+,{"stream_name":"stdout","time":13716.545610065,"data":"(90, 1, 19, 0, 363.6, '')\n"}
+,{"stream_name":"stdout","time":13729.449528593,"data":"(90, 1, 20, 0, 372.8, '')\n"}
+,{"stream_name":"stdout","time":13729.449929805,"data":"done 13696\n"}
+,{"stream_name":"stderr","time":13732.361804134,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":13732.361841433,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":13732.753274864,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":13732.75330583,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":13734.519260081,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":13735.778440795,"data":"[NbConvertApp] Writing 308577 bytes to __results__.html\n"}
+]
