@@ -1,8 +1,7 @@
 # EAGLE-Med simulation package
 
 Reproduces every number, table and chart in the manuscript "EAGLE-Med: Emergency-Aware and Graded
-Leader Election for Trustworthy Medical Edge Computing Networks" by Abdelbassette Chenna, University of Batna 2
-(ORCID 0009-0003-4671-1182).
+Leader Election for Trustworthy Medical Edge Computing Networks" bechir aziza, University of Batna 2
 
 All data here are synthetic simulation outputs. No patient or clinical data are used, and nothing here is a clinical
 validation.
